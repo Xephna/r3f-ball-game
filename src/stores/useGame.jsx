@@ -3,7 +3,7 @@ import { subscribeWithSelector } from 'zustand/middleware'
 
 export default create(subscribeWithSelector((set)=>{
 	return {
-		blocksCount: 3,
+		blocksCount: 20,
 		blockSeed: 0,
 
 		/**
